@@ -1,13 +1,10 @@
-from rest_framework.decorators import api_view
 from django.http import JsonResponse
 
-@api_view(['GET'])
 def investment_goods_list(request):
     data = {"lists":["NFT","스니커즈 리셀","조각투자","P2P투자","스타트업 펀딩","비상장 주식"]}
     # return JsonResponse(data)
     return JsonResponse(data, safe=False, json_dumps_params={'ensure_ascii': False})
 
-@api_view(['GET'])
 def now(request):
     return JsonResponse({"lists":
     [
@@ -17,7 +14,6 @@ def now(request):
     
     ]});
 
-@api_view(['GET'])
 def how_about_this(request):
     return JsonResponse({"lists":
     [
@@ -32,7 +28,6 @@ def how_about_this(request):
     
     ]});
 
-@api_view(['GET'])
 def popular(request):
     return JsonResponse({"lists":[
         {"img":"https://dbm9jhyrx0h6k.cloudfront.net/service/1647308381931-a30dac05-604e-453b-906a-efca70d47bea.png","subject":"조각투자","name":"불로부터(Issu du feu)","price":"","logo":"https://msr-assets.s3.ap-northeast-2.amazonaws.com/tessaLogo.png","subTitle":"이배","loan":{},"open":"3월 25일 오픈","isbuyNow":"false"},
@@ -42,7 +37,6 @@ def popular(request):
 
     ]});
 
-@api_view(['GET'])
 def focusNFT(request):
     return JsonResponse({"lists":[
 
