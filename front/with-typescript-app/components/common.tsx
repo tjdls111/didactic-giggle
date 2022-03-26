@@ -5,3 +5,4 @@ const StyledTitle = styled.h3`
 `;
 
 export default StyledTitle;
+

@@ -8,6 +8,9 @@ const Container = styled.div`
   display: flex;
   justify-content: space-evenly;
 `;
+const TopContainer = styled.section`
+  margin-top: 3em;
+`;
 function Focus() {
   const [datas, setDatas] = useState(null);
   useEffect(() => {
@@ -18,7 +21,7 @@ function Focus() {
   }, []);
 
   return (
-    <div>
+    <TopContainer>
       <StyledTitle>주목받고 있는 NFT 작가와 컬렉션</StyledTitle>
       {/* <ul>
     {datas &&
@@ -70,7 +73,7 @@ function Focus() {
         )}
         ;
       </Container>
-    </div>
+    </TopContainer>
   );
 }
 

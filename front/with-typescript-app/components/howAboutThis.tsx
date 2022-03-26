@@ -20,7 +20,7 @@ function HowAboutThis() {
 
   return (
     <div>
-      <StyledTitle>주목받고 있는 NFT 작가와 컬렉션</StyledTitle>
+      <StyledTitle>이 상품은 어떤가요?</StyledTitle>
       {/* <ul>
     {datas &&
       datas.map((data) => {

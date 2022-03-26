@@ -15,7 +15,9 @@ interface Data {
   subTitle: string;
   subject: string;
 }
-
+const TopContainer = styled.section`
+  margin-top: 3em;
+`;
 const Container = styled.div`
   display: flex;
   justify-content: space-evenly;
@@ -30,7 +32,7 @@ function Popular() {
   }, []);
 
   return (
-    <div>
+    <TopContainer>
       <StyledTitle>인기가 많은 모든 투자상품</StyledTitle>
       {/* <ul>
         {datas &&
@@ -82,7 +84,7 @@ function Popular() {
         )}
         ;
       </Container>
-    </div>
+    </TopContainer>
   );
 }
 
