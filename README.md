@@ -4,7 +4,9 @@
 
 ### 백엔드
 
-- 가상 환경 생성 : python -m venv (가상환경 이름)
+- 백엔드 폴더로 이동: cd back
+
+- 가상 환경 생성 : python -m venv venv
 
 - 가상 환경 활성화(윈도우 기준) : source venv/Scripts/activate
 
