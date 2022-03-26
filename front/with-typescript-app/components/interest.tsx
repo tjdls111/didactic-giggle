@@ -37,14 +37,16 @@ function Interest() {
   return (
     <Container>
       <span>관심 가는 투자상품을</span> <BorderText>모두 골라보세요</BorderText>
-      <Ul>
-        <ListItem>{datas[0]}</ListItem>
-        <ListItem>{datas[1]}</ListItem>
-        <ListItem>{datas[2]}</ListItem>
-        <ListItem>{datas[3]}</ListItem>
-        <ListItem>{datas[4]}</ListItem>
-        <ListItem>{datas[5]}</ListItem>
-      </Ul>
+      {datas && (
+        <Ul>
+          <ListItem>{datas[0]}</ListItem>
+          <ListItem>{datas[1]}</ListItem>
+          <ListItem>{datas[2]}</ListItem>
+          <ListItem>{datas[3]}</ListItem>
+          <ListItem>{datas[4]}</ListItem>
+          <ListItem>{datas[5]}</ListItem>
+        </Ul>
+      )}
     </Container>
   );
 }
