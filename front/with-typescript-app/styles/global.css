@@ -1,0 +1,18 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff")
+format("woff");
+:root {
+}
+
+* {
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "SpoqaHanSansNeo-Medium", "Spoqa Han Sans Neo",
+    "Spoqa Han Sans JP", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
