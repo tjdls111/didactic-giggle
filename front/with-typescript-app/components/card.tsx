@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import Image from "next/image";
 
 const Container = styled.div`
   padding: 2px 16px;
@@ -27,6 +28,15 @@ const Content = styled.div`
     animation-timing-function: linear;
   }
 `;
+
+const ImgContainer = styled.div`
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+`;
+const Img = styled(Image)`
+  position: absolute;
+`;
 interface Props {
   title: string;
   type: string;
@@ -38,10 +48,21 @@ interface Props {
 }
 
 function Card(Prop: Props) {
+  const myLoader = () => {
+    return `${Prop.imgUrl}`;
+  };
+
   return (
     <Content>
-      {/* <img src="img_avatar.png" alt="Avatar" style="width:100%"> */}
-      {/* <img src="img_avatar.png" alt="Avatar" > */}
+      <ImgContainer>
+        <Img
+          loader={myLoader}
+          src="imgPath"
+          alt="perfume image"
+          layout="fill"
+        />
+      </ImgContainer>
+
       <Container>
         <p>{Prop.title}</p>
         <p>{Prop.brand}</p>

@@ -18,6 +18,7 @@ interface Data {
 
 const Container = styled.div`
   display: flex;
+  justify-content: space-evenly;
 `;
 function Popular() {
   const [datas, setDatas] = useState(null);
@@ -57,7 +58,6 @@ function Popular() {
             markUrl={datas[0].logo}
           />
         )}
-        
         {datas && (
           <Card
             title={datas[1].name}
@@ -69,7 +69,6 @@ function Popular() {
             markUrl={datas[1].logo}
           />
         )}
-        
         {datas && (
           <Card
             title={datas[2].name}
