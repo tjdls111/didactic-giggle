@@ -20,7 +20,7 @@ export const apiGetNow = async () => {
 
 export const apiGetRecommandation = async () => {
   try {
-    return await axios.get(`${BASE_URL}/recommnend/`);
+    return await axios.get(`${BASE_URL}/recommend/`);
   } catch (e) {
     throw new Error("server Error");
   }
