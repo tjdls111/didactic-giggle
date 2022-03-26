@@ -10,6 +10,7 @@ const Btn = styled.button`
   width: 15em;
   margin: auto;
   display: block;
+  cursor: pointer;
 `;
 
 function FindAllBtn() {
