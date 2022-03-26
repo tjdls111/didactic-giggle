@@ -30,3 +30,9 @@
 위 작업을 완료한 이후, http://localhost:3000/ 에서 결과물을 확인하실 수 있습니다.
 
 ![image](https://user-images.githubusercontent.com/68271159/160223904-17b5f822-13fd-40c7-ba82-55d13da778ee.png)
+----
+## 사용한 프레임워크 및 라이브러리
+
+### 프론트엔드: React, TypeScript, Emotion, Next.js, Axios
+### 백엔드: Django, django-cors-headers
+(따로 크롤링하거나 DB를 사용하지는 않고, 하드코딩한 데이터를 API로 제공하는 용도로만 사용)
