@@ -9,19 +9,26 @@ import Focus from "../components/focus";
 import Explanation from "../components/explanation";
 import Footer from "../components/footer";
 
+import { ThemeProvider } from "@emotion/react";
+import theme from "../styles/theme";
+import GlobalStyle from "../styles/global";
+
 const IndexPage = () => (
-  <>
-    <Navbar />
-    <Banner />
-    <Interest />
-    <FindAllBtn />
-    <Adbertise />
-    <HowAboutThis />
-    <Popular />
-    <Focus />
-    <Explanation />
-    <Footer />
-  </>
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <>
+      <Navbar />
+      <Banner />
+      <Interest />
+      <FindAllBtn />
+      <Adbertise />
+      <HowAboutThis />
+      <Popular />
+      <Focus />
+      <Explanation />
+      <Footer />
+    </>
+  </ThemeProvider>
 );
 
 export default IndexPage;
