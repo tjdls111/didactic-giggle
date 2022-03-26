@@ -2,6 +2,8 @@
 
 ## 실행 방법
 
+![image](https://user-images.githubusercontent.com/68271159/160223776-e848afa7-6a19-47de-8d1d-1347890c66dd.png)
+- 위와 같이 터미널을 분할
 
 ### 백엔드
 
@@ -24,5 +26,6 @@
 
 - 서버 실행 npm run dev
 
-![image](https://user-images.githubusercontent.com/68271159/160223776-e848afa7-6a19-47de-8d1d-1347890c66dd.png)
-(참고:위와 같이 터미널을 분할해서 사용하시면 편합니다.)
+
+http://localhost:3000/ 에서 결과물을 확인하실 수 있습니다.
+![image](https://user-images.githubusercontent.com/68271159/160223904-17b5f822-13fd-40c7-ba82-55d13da778ee.png)
