@@ -4,7 +4,8 @@ declare module "@emotion/react" {
   export interface Theme {
     mainColor: string;
     subColor: string;
-    bgColor: string;
+    white: string;
+    grey: string;
   }
 }
 타입스크;
