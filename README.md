@@ -27,5 +27,6 @@
 - 서버 실행 npm run dev
 
 
-http://localhost:3000/ 에서 결과물을 확인하실 수 있습니다.
+위 작업을 완료한 이후, http://localhost:3000/ 에서 결과물을 확인하실 수 있습니다.
+
 ![image](https://user-images.githubusercontent.com/68271159/160223904-17b5f822-13fd-40c7-ba82-55d13da778ee.png)
