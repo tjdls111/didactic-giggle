@@ -1,4 +1,4 @@
-# didactic-giggle
+# 과제형 코딩 
 
 ## 실행 방법
 
